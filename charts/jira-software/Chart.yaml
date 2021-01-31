@@ -16,13 +16,13 @@ appVersion: 8.14.1
 
 icon: https://mox.sh/assets/images/jira-logo.png
 
-dependencies:
-  - name: postgresql
-    version: 9.1
-    repository: https://charts.bitnami.com/bitnami
-    condition: postgresql.enabled
-    tags:
-      - postgres
+#dependencies:
+#  - name: postgresql
+#    version: 9.1
+#    repository: https://charts.bitnami.com/bitnami
+#    condition: postgresql.enabled
+#    tags:
+#      - postgres
 
 keywords:
 - jira
