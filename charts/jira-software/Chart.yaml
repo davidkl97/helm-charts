@@ -19,7 +19,7 @@ icon: https://mox.sh/assets/images/jira-logo.png
 dependencies:
   - name: postgresql
     version: 9.1
-    repository: https://charts.bitnami.com/bitnami
+    repository: https://github.com/mano1233/helm-charts.git
     condition: postgresql.enabled
     tags:
       - postgres
