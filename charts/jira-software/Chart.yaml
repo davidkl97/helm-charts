@@ -17,7 +17,7 @@ appVersion: 8.14.1
 icon: https://mox.sh/assets/images/jira-logo.png
 
 dependencies:
-  - name: confluence-server
+  - name: postgresql
     version: 10.2.6
     repository: https://github.com/mano1233/helm-charts.git
     condition: postgresql.enabled
